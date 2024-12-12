@@ -11,4 +11,3 @@ path = "./Dockerfile"
 command = "java -jar app.jar"
 
 [env]
-var1 = "Botafogo campeão da libertadores e brasileiro 2024"

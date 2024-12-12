@@ -19,8 +19,6 @@ WORKDIR /app
 # Copia o artefato gerado na etapa anterior
 COPY --from=builder /app/target/*.jar app.jar
 
-# Configura variáveis de ambiente
-ENV env1="Botafogo campeão da libertadores e brasileiro 2024"
 
 # Expondo a porta padrão do Spring Boot
 EXPOSE 8080
