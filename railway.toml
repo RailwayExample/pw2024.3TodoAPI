@@ -1,8 +1,8 @@
-# nome do serviço no Railway
+# Nome do serviço no Railway
 [service]
 name = "railway-deploy-example"
 
-# build e Deploy usando Docker
+# Build e Deploy usando Docker
 [build]
 builder = "DOCKERFILE"
 path = "./Dockerfile"
@@ -11,4 +11,4 @@ path = "./Dockerfile"
 command = "java -jar app.jar"
 
 [env]
-# variaveis de ambiente
+var1 = "Botafogo campeão da libertadores e brasileiro 2024"

@@ -17,7 +17,7 @@ public class TodoApiApplication {
 	}
 	@Component
 	public static class Runner implements ApplicationRunner{
-		@Value("${var1:valor default na classe app!}")
+		@Value("${var1}")
 		String teste;
 		@Override
 		public void run(ApplicationArguments args) throws Exception {
