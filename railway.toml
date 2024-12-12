@@ -1,0 +1,14 @@
+# nome do serviço no Railway
+[service]
+name = "railway-deploy-example"
+
+# build e Deploy usando Docker
+[build]
+builder = "DOCKERFILE"
+path = "./Dockerfile"
+
+[deploy]
+command = "java -jar app.jar"
+
+[env]
+# variaveis de ambiente
